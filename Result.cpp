@@ -8,11 +8,13 @@ void Result::Initialize()
 void Result::Update()
 {
     // DIK_A を押している場合、左に移動
-    if (Novice::CheckHitKey(DIK_A)) {
+    if (Novice::CheckHitKey(DIK_A)) 
+    {
         moveLeftCommand.Exec(player);
     }
     // DIK_D を押している場合、右に移動
-    if (Novice::CheckHitKey(DIK_D)) {
+    if (Novice::CheckHitKey(DIK_D)) 
+    {
         moveRightCommand.Exec(player);
     }
 }
