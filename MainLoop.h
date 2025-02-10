@@ -1,6 +1,8 @@
 #pragma once
 #include <Novice.h>
 #include "Result.h"
+#include "IScene.h"
+#include "TitleScene.h"
 
 const char kWindowTitle[] = "LE2B_16_ツユキ_イオリ_";
 
@@ -12,7 +14,7 @@ private:
 	char keys[256];
 	char preKeys[256];
 
-	Result* result_;
+	IScene* currentScene_;
 
 public:
 

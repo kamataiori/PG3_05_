@@ -59,6 +59,24 @@
     <ClCompile Include="InputHandler.cpp">
       <Filter>KamataEngine</Filter>
     </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="IScene.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayScene.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearScene.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\KamataEngine\DirectXGame\audio\Audio.h">
@@ -140,6 +158,12 @@
     <ClInclude Include="MoveRightCommand.h" />
     <ClInclude Include="MoveLeftCommand.h" />
     <ClInclude Include="InputHandler.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="IScene.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="GamePlayScene.h" />
+    <ClInclude Include="ClearScene.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="PG3_05_.rc" />

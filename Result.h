@@ -4,6 +4,7 @@
 #include "MoveLeftCommand.h"
 #include "MoveRightCommand.h"
 #include "InputHandler.h"
+#include "Enemy.h"
 
 class MainLoop;
 
@@ -32,6 +33,8 @@ private:
 	MoveLeftCommand moveLeftCommand;
 	MoveRightCommand moveRightCommand;
 	InputHandler inputHandler;
+
+	Enemy enemy;
 
 };
 
